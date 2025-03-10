@@ -21,7 +21,7 @@ c) Is there a pattern in the text of the place name for higher-value places?
 
 - Explain how price prediction can be made from the data. Which variables and/or their transformations were used and why? What type of problem are we solving (regression, classification)? Which model best approximates the data and what are its pros and cons? Which model performance measure was chosen and why?
 
-The answer for this questions is avalliable in the _________
+The answer for this questions is avalliable in the ```estudo_airbnb_ny.ipynb```
 
 🚀 How to Run the Project
 
