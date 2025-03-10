@@ -1,43 +1,43 @@
-## 🏠 NYC Real Estate Price Prediction
+## 🏠 Previsão de Preços de Imóveis em NYC
 
-In this project, we used a Kaggle dataset of Airbnb listings in New York City. We enhanced the analysis by incorporating external data that is not included in the dataset, such as:
+Neste projeto, utilizamos um conjunto de dados do Kaggle sobre anúncios do Airbnb na cidade de Nova York. Melhoramos a análise incorporando dados externos que não estão incluídos no conjunto de dados, como:
 
-+ Crime rates per neighborhood
-+ Proximity to tourist attractions, subway stations, and bus stops
-+ Extracting the number of bedrooms from the property names
++ Taxas de criminalidade por bairro
++ Proximidade de atrações turísticas, estações de metrô e pontos de ônibus
++ Extração do número de quartos a partir dos nomes das propriedades
 
-## 📈 Project Objective
+## 📈 Objetivo do Projeto
 
-- Perform an exploratory data analysis (EDA), demonstrating the main characteristics between the variables and presenting some related business hypotheses.
+- Realizar uma análise exploratória de dados (EDA), demonstrando as principais características entre as variáveis e apresentando algumas hipóteses de negócios relacionadas.
 
-- Answer the following questions:
+- Responder às seguintes perguntas:
   
-a) Assuming that a person is thinking about investing in an apartment to rent on the platform, where would be the best place to buy?
+a) Supondo que uma pessoa esteja pensando em investir em um apartamento para alugar na plataforma, qual seria o melhor lugar para comprar?
 
-b) Do the minimum number of nights and availability throughout the year affect the price?
+b) O número mínimo de noites e a disponibilidade ao longo do ano afetam o preço?
 
-c) Is there a pattern in the text of the place name for higher-value places?
+c) Existe um padrão no texto do nome do lugar para locais de maior valor?
 
 
-- Explain how price prediction can be made from the data. Which variables and/or their transformations were used and why? What type of problem are we solving (regression, classification)? Which model best approximates the data and what are its pros and cons? Which model performance measure was chosen and why?
+- Explicar como a previsão de preços pode ser feita a partir dos dados. Quais variáveis e/ou suas transformações foram utilizadas e por quê? Que tipo de problema estamos resolvendo (regressão, classificação)? Qual modelo melhor se ajusta aos dados e quais são seus prós e contras? Qual métrica de desempenho do modelo foi escolhida e por quê?
 
-The answer for this questions is avalliable in the ```estudo_airbnb_ny.ipynb```
+A resposta para essas perguntas está disponível no arquivo: ```estudo_airbnb_ny.ipynb```
 
-🚀 How to Run the Project
+## 🚀 Como Executar o Projeto
 
-1. Clone the repository:
+1. Clone o repositório utilizando o comando:
    
 ```git clone https://github.com/yourusername/nyc-real-estate-price-prediction.git```
 
-2. Install dependencies:
+2. Instale as dependências:
 
-Make sure Python is installed on your machine. Run the following command to install the required libraries
+Certifique-se de que o Python está instalado na sua máquina. Execute o seguinte comando para instalar as bibliotecas necessárias:
 
 ```pip install -r requirements.txt``` 
 
-3. Required files:
+3. Arquivos necessários:
 
-Ensure the following files are in the project directory (already included in the repository):
+Verifique se os seguintes arquivos estão no diretório do projeto (já incluídos no repositório):
 
 + teste_indicium_precificacao
 + MTA_Subway_Entrances_and_Exits__2024_20250129
@@ -45,7 +45,7 @@ Ensure the following files are in the project directory (already included in the
 + crimes_por_PTC
 + PTC_por_bairros
 
-Data sources:
+Fontes de dados:
 
 . 🚇 [NYC Subway Entrances and Exits (2024)](https://data.ny.gov/Transportation/MTA-Subway-Entrances-and-Exits-2024/i9wp-a4ja/about_data)
 
@@ -55,14 +55,14 @@ Data sources:
 
 . 🗺️ [Neighborhood Division by PTC](https://www.nyc.gov/site/nypd/bureaus/patrol/precincts-landing.page)
 
-4. Run the analysis and prediction:
+4. Execute a análise e a previsão:
 
    ```python main.py```
 
-## 🛠️ Technologies Used
+## 🛠️  Tecnologias Usadas
 
 + Python
-+ Pandas, NumPy (Data manipulation)
-+ Scikit-learn (Predictive modeling)
-+ Matplotlib, Seaborn (Data visualization)
++ Pandas, NumPy (Manipulação de dados)
++ Scikit-learn (Modelagem preditiva)
++ Matplotlib, Seaborn (Visualização de dados)
 
