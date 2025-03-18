@@ -27,7 +27,7 @@ A resposta para essas perguntas está disponível no arquivo: ```estudo_airbnb_n
 
 1. Clone o repositório utilizando o comando:
    
-```git clone https://github.com/yourusername/nyc-real-estate-price-prediction.git```
+```git clone https://github.com/luizcaixeta/airbnb-pricing-new-york.git```
 
 2. Instale as dependências:
 
